@@ -1,6 +1,6 @@
 ---
 type: reference
-last-verified: 2026-05-26
+last-verified: 2026-05-27
 ---
 
 # docs/ — How this folder is organised
@@ -59,4 +59,4 @@ last-verified: YYYY-MM-DD
 - **near-term** — committed-ish roadmap not yet in delivery
 - **reference** — indexes, guides, conventions
 
-`last-verified` is the date the content was last confirmed accurate — against the current code, not the previous version of the doc. Stale `reality` docs are the main failure mode for living documentation; see the [anti-rot principles](./current-reality/architecture/README.md#anti-rot-principles) for how to keep them honest.
+`last-verified` is the date the content was last confirmed accurate — against the current code, not the previous version of the doc. Stale `reality` docs are the main failure mode for living documentation; see the [anti-rot principles](./current-reality/README.md#anti-rot-principles) for how to keep them honest.
