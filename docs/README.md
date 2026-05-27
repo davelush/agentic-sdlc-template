@@ -59,4 +59,4 @@ last-verified: YYYY-MM-DD
 - **near-term** — committed-ish roadmap not yet in delivery
 - **reference** — indexes, guides, conventions
 
-`last-verified` is the date the content was last confirmed accurate. Stale `reality` docs are the main failure mode for living documentation — update it whenever you touch the doc.
+`last-verified` is the date the content was last confirmed accurate — against the current code, not the previous version of the doc. Stale `reality` docs are the main failure mode for living documentation; see the [anti-rot principles](./current-reality/architecture/README.md#anti-rot-principles) for how to keep them honest.

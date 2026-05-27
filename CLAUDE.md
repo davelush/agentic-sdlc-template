@@ -32,6 +32,7 @@ These rules are stack-independent. They are the method — keep them. See [docs/
 - **No time estimates.** Don't write "~30 minutes" or "quick change". They're noise and they anchor badly.
 - **Investigate, then decide — never investigate-and-accidentally-mutate.** When you have access to production (logs, database, infrastructure), reads are free; writes require an explicit decision. Default to read-only.
 - **Keep current reality distilled.** When an increment closes, graduate its durable knowledge into `current-reality/` and archive the process record. Don't let `current-reality/` become a graveyard of finished increments.
+- **Document intent, not inventories.** In docs, capture what the code can't tell you — relationships, invariants, conventions, the why — and point to ground truth for the rest. Don't hand-maintain derivable specifics (counts, file/endpoint lists, signatures); they rot. A wrong doc is worse than a missing one, so verify claims against the current code before writing them. The constitution states the rules; the docs show the patterns — don't duplicate detail across the two. (Full principles: `docs/current-reality/architecture/README.md`.)
 
 ## Conventions (replace with your own)
 

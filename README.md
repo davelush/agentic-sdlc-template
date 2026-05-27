@@ -25,6 +25,7 @@ A few principles fall out of this:
 - **The agent plans before it implements.** Nothing is built without a written approach the human has reviewed.
 - **The human decides; the agent generates the options.** A genuine division of labour.
 - **Capture-and-defer beats inline-fixing.** Out-of-scope discoveries go on a snag list, not into the current change.
+- **Living docs are written to not rot.** `current-reality/` docs capture intent the code can't express and point to the code for the rest — never hand-maintained inventories. See the [anti-rot principles](docs/current-reality/architecture/README.md#anti-rot-principles).
 
 ## What's in here
 
